@@ -1,0 +1,189 @@
+:root {
+
+    --color1: #ffffff;
+
+    --fonts1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-container {
+    background-color: #00F0D5;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+}
+
+.logo-container {
+    flex: 1 0 30%;
+    padding-left: 20px;
+}
+
+#logo {
+    height: 100px;
+    width: 200px;
+}
+
+.header-title {
+    flex: 1 0 50%;
+    align-self: center;
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list-container {
+    flex: 0 0 20%;
+}
+
+.nav-list {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-title {
+    color: var(--color1);
+}
+
+.list-items {
+    margin: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    color: var(--color1);
+    font-family: var(--fonts1);
+    text-decoration: none;
+}
+
+.favorite-things-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+h2,
+span,
+p,
+div ol li {
+    color: #4C228E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-header {
+    text-align: center;
+    margin: 10px;
+    background-image: url(https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg);
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.sub-header h1 {
+    color: var(--color1);
+    padding: 70px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.favorite-things-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    flex: 1 0 60%;
+    height: 200px;
+    align-items: center;
+    background: linear-gradient(to right, #00F0D5, #4C228E);
+}
+
+.image-container h3 {
+    flex: 0 0 70%;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.favorite-things-list ol li,
+.favorite-things-list p {
+    text-align: left;
+}
+
+#heart-image {
+    height: 100px;
+    width: 150px;
+}
+
+.carrousel-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+}
+
+.carrousel-images {
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px black;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card-text-containers {
+    margin-top: 15px;
+}
+
+li {
+    color: #4C228E;
+}
+
+.footer-container {
+    background-color: #00F0D5;
+    height: 130px;
+    margin-top: 50px;
+    margin: 20px 5px;
+}
+
+.created-by {
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-lists {
+    list-style: none;
+    font-weight: bold;
+}
